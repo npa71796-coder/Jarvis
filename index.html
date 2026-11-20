@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101827"><link rel="manifest" href="manifest.webmanifest">
+<title>JARVIS AI</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="orb">J</div><div><h1>JARVIS</h1><p>آپ کا ذاتی AI اسسٹنٹ</p></div><span id="status">آف لائن موڈ</span></header>
+<main>
+<section class="hero"><h2>السلام علیکم!</h2><p>میں JARVIS کا ابتدائی ورژن ہوں۔ ابھی میں آپ کے کام محفوظ اور منظم کر سکتا ہوں۔ AI دماغ اور ویب آٹومیشن اگلے مرحلے میں محفوظ طریقے سے جوڑے جائیں گے۔</p></section>
+<section class="panel"><h3>JARVIS کو حکم دیں</h3><textarea id="command" rows="3" placeholder="مثلاً: آج کے کام یاد رکھنا..."></textarea><div class="actions"><button id="saveCommand">حکم محفوظ کریں</button><button class="secondary" id="voice">🎙 آواز</button></div><p class="hint" id="voiceHint">آواز کی سہولت براؤزر کے تعاون پر منحصر ہے۔</p></section>
+<section class="panel"><div class="row"><h3>میرے کام</h3><span id="count">0 کام</span></div><form id="taskForm"><input id="taskInput" placeholder="نیا کام لکھیں" required><button>شامل کریں</button></form><ul id="tasks"></ul></section>
+<section class="panel"><h3>JARVIS کی صلاحیتیں</h3><div class="cap"><b>میموری</b><span>اس ڈیوائس پر کام محفوظ</span><em class="ok">فعال</em></div><div class="cap"><b>AI دماغ</b><span>API کنکشن درکار</span><em>زیرِ تیاری</em></div><div class="cap"><b>ویب آٹومیشن</b><span>سائٹ کے قواعد اور آپ کی اجازت کے ساتھ</span><em>زیرِ تیاری</em></div><div class="cap"><b>Self-upgrade</b><span>ٹیسٹ اور منظوری کے بعد اپڈیٹ</span><em>زیرِ تیاری</em></div></section>
+<section class="panel"><h3>کمائی کا ریکارڈ</h3><p class="money" id="total">PKR 0</p><form id="earningForm"><input id="earningInput" type="number" min="1" step="1" placeholder="موصول شدہ رقم (PKR)" required><button>آمدنی درج کریں</button></form><p class="hint">یہ صرف ریکارڈ ہے؛ JARVIS خود سے پیسے نہیں کماتا اور نہ ہی Payoneer میں رقم بھیج سکتا ہے۔</p></section>
+<section class="panel"><h3>محفوظ اپگریڈ کا اصول</h3><p>JARVIS نئی صلاحیت تجویز کر سکتا ہے۔ کوڈ کی تبدیلی پہلے ٹیسٹ ہوگی، بیک اپ بنے گا، پھر آپ کی منظوری سے اپڈیٹ لگے گی۔</p></section>
+</main>
+<footer>JARVIS Starter • ابتدائی پروٹوٹائپ</footer>
+<script src="app.js"></script>
+</body></html>
