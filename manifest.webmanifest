@@ -1,1 +1,9 @@
-{"name":"JARVIS AI","short_name":"JARVIS","start_url":"./index.html","display":"standalone","background_color":"#0b1220","theme_color":"#101827","lang":"ur","dir":"rtl","icons":[]}
+{
+  "name": "JARVIS Assistant",
+  "short_name": "JARVIS",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#101827",
+  "description": "Basic offline-first JARVIS assistant"
+}
